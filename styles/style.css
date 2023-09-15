@@ -118,6 +118,12 @@ body {
     padding: 5px 10px;
     border-radius: 15px;
     margin: 2em 0;
+    transition: .5s;
+}
+
+.secao a:hover {
+    background-color: #EFF8E2;
+    color: #0B5563;
 }
 
 .cor1 {
