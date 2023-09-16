@@ -73,11 +73,11 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
 }
 
-.secao__titulo {
+.artigo__titulo {
     margin-bottom: .5em;
 }
 
-.secao__dados {
+.artigo__dados {
     display: inline-block;
     background-color: #FFBA49;
     font-weight: 600;
@@ -87,30 +87,30 @@ body {
     line-height: 1.5em;
 }
 
-.secao__texto {
+.artigo__texto {
     margin-bottom: .5em;
 }
 
-.secao__card {
+.artigo-card {
     background-color: #9BBDF9;
     padding: 1em 3em;
     border-radius: 30px;
     border: 2px inset rgba(0, 0, 0, 0.541);
 }
 
-.secao__titulo-complemento {
+.artigo__titulo-complemento {
     margin-bottom: .5em;
 }
 
-.secao ul {
+.artigo-card ul {
     list-style-type: none;
 }
 
-.secao li {
+.artigo-card li {
     line-height: 2em;
 }
 
-.secao a {
+.artigo-card a {
     text-decoration: none;
     background-color: #0B5563;
     color: #EFF8E2;
@@ -121,7 +121,7 @@ body {
     transition: .5s;
 }
 
-.secao a:hover {
+.artigo-card a:hover {
     background-color: #EFF8E2;
     color: #0B5563;
 }
@@ -152,4 +152,12 @@ body {
 .lista-cores {
     text-align: center;
     font-weight: 600;
+}
+
+#rodape {
+    background-color: #2C1320;
+    color: #EFF8E2;
+    text-align: center;
+    font-weight: 600;
+    padding: 25px;
 }
